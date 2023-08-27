@@ -43,7 +43,7 @@ header .nav-links a {
 }
 
 .hero {
-    height: 87vh;
+    height: 100vh;
     background: linear-gradient(rgba(255, 0, 0, 0.089), rgba(0, 0, 0, 0.473)),
     url("images/perez.jpg") no-repeat center center / cover;
 }
