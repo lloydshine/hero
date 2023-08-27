@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+    background-color: maroon;
+    color: whitesmoke;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+header .nav-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+header .nav-links a {
+    text-decoration: none;
+    color: unset;
+}
+
+.hero {
+    height: 87vh;
+    background: linear-gradient(rgba(255, 0, 0, 0.089), rgba(0, 0, 0, 0.473)),
+    url("images/perez.jpg") no-repeat center center / cover;
+}
+
+.hero-container {
+    display: flex;
+    width: 20rem;
+    height: 100%;
+    align-items: center;
+    margin: 0 5rem;
+}
+
+.intro-text {
+    width: 19rem;
+    color: whitesmoke;
+}
+
+.intro-text h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.intro-text button {
+    font-size: 1.5rem;
+    background-color: maroon;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main section {
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+}
+
+.gallery img {
+    width: 20rem;
+}
+
+.activities img {
+    width: 30rem;
+}
+
+.guard-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.guard {
+    text-align: center;
+}
+
+.guard img {
+    width: 10rem;
+    border-radius: 1000px;
+    border: solid maroon;
+}
+
+@media only screen and (max-width: 888px) {
+    html {
+      font-size: 10px;
+    }
+
+    .main section {
+        flex-direction: column;
+    }
+  }
