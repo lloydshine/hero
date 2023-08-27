@@ -28,7 +28,9 @@ header .logo {
 
 header .logo img {
     width: 4rem;
+    height: 4rem;
     margin-right: 1rem;
+    border-radius: 1000px;
 }
 
 header .nav-links {
